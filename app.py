@@ -68,8 +68,8 @@ if page == "Route Planner":
 
     model = train_model()
 
-    src_input = st.text_input("Source", "Source")
-    dst_input = st.text_input("Destination", "Destination")
+    src_input = st.text_input("Source", "")
+    dst_input = st.text_input("Destination", "")
 
     if st.button("Find Routes", type="primary"):
 
@@ -141,8 +141,8 @@ elif page == "Road Construction Planner":
     # ---------------------------
     # INPUT
     # ---------------------------
-    start_place = st.text_input("Start Location", "Start Location")
-    end_place = st.text_input("End Location", "End Location")
+    start_place = st.text_input("Start Location", "")
+    end_place = st.text_input("End Location", "")
 
     size = st.slider("Grid Size", 5, 20, 10)
 
