@@ -141,8 +141,8 @@ elif page == "Road Construction Planner":
     # ---------------------------
     # INPUT
     # ---------------------------
-    start_place = st.text_input("Start Location", "Mysore Palace")
-    end_place = st.text_input("End Location", "Infosys Mysore")
+    start_place = st.text_input("Start Location", "Start Location")
+    end_place = st.text_input("End Location", "End Location")
 
     size = st.slider("Grid Size", 5, 20, 10)
 
