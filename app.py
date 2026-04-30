@@ -68,8 +68,8 @@ if page == "Route Planner":
 
     model = train_model()
 
-    src_input = st.text_input("Source", "Mysore Palace")
-    dst_input = st.text_input("Destination", "Infosys Mysore")
+    src_input = st.text_input("Source", "Source")
+    dst_input = st.text_input("Destination", "Destination")
 
     if st.button("Find Routes", type="primary"):
 
