@@ -1,4 +1,4 @@
-🌿 Smart Green Planning System
+🌿 AI based Eco Route Planning System
 
 An AI-powered system for **eco-friendly route optimization** and **road construction planning** using Machine Learning and Pathfinding Algorithms.
 
